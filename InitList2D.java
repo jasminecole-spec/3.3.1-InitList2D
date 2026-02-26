@@ -9,13 +9,12 @@ public class InitList2D
                         {"moon", "rock"},
                         {"band", "stand"},
                         {"out", "shine"}  }; 
-  System.out.println(board[0]);
   for (int i = 0; i < 4; i++)
-
   {
-
-    System.out.println(board[i]); // show object references
-
+    for (int j = 0; j < 2; j++)
+    {
+      System.out.println(board[i][j]);
+    }
   }
  }
 }
