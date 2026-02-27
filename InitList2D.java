@@ -16,5 +16,13 @@ public class InitList2D
       System.out.println(board[i][j]);
     }
   }
+
+  for (int j = 0; j < 2; j++)
+  {
+    for (int i = 0; i < 4; i++)
+    {
+      System.out.println(board[i][j]);
+    }
+  }
  }
 }
